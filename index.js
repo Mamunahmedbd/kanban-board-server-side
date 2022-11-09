@@ -14,7 +14,7 @@ const novu = new Novu("a240766e253171d02cfacd6d43e1ab1d");
 
 const socketIO = require("socket.io")(http, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://kanban-dashboard-socket-io.netlify.app",
   },
 });
 
